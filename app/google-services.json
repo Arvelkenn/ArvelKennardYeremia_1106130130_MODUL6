@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "484276051767",
+    "firebase_url": "https://arvelkennardyeremia.firebaseio.com",
+    "project_id": "arvelkennardyeremia",
+    "storage_bucket": "arvelkennardyeremia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484276051767:android:f3d385cc5d9d378c",
+        "android_client_info": {
+          "package_name": "com.example.lenovog480.arvelkennardyeremia_1106130130_modul6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484276051767-heevukj1nevgaupn8rp9vpfseoidca88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKLsblBzdxnXcSF7CXUbfm75tEuUZVA5E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

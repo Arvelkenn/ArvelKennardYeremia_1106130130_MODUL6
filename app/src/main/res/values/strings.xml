@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ArvelKennardYeremia_1106130130_Modul6</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_halaman_utama">Popotoan</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

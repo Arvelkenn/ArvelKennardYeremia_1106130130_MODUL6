@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clickable="true"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:id="@+id/txtJudul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:layout_below="@+id/thumbnail"/>
+            <TextView
+                android:id="@+id/txtDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:layout_below="@+id/txtJudul"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@id/txtDetail"/>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>

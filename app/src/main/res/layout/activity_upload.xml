@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btnChoose"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="choose"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/edtJudul"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/edtPost"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write your post..."
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
